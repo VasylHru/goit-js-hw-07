@@ -11,6 +11,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-color: rgba(246, 246, 254, 1);
 }
 
 .gallery {
@@ -32,4 +33,89 @@ img {
 li {
  width: 360px;
  height: 260px;
+}
+
+
+
+input {
+  border-radius: 8px;
+  gap: 10px;
+  width: 150px;
+  height: 38px;
+}
+
+.link-back {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5cc011; 
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.link-back:hover {
+  background-color: #036823; 
+}
+
+.link-back:focus {
+  outline: none;
+}
+
+.btn-create {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgba(78, 117, 255, 1); 
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-create:hover {
+  background-color: rgb(11, 46, 172); 
+}
+
+.btn-create:focus {
+  outline: none;
+}
+
+
+
+.btn-destroy {
+  
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255, 78, 81); 
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-destroy:hover {
+    background-color: rgb(218, 5, 5); 
+  }
+  
+  .btn-destroy:focus {
+    outline: none;
+  }
+  
+
+
+
+.box-gallegy {
+ background-color: rgba(246, 246, 254, 1);
 }
